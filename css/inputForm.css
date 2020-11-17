@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 html, input{
     font-family: sans-serif;
 }
@@ -51,4 +55,22 @@ button {
     font-style: italic;
     font-weight: bold;
     color: red;
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    body{
+        background-color: lightgreen;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    body{
+        background-color: lightskyblue;
+    }
+}
+
+@media (max-width: 767px){
+    body{
+        background-color: lightpink;
+    }
 }
